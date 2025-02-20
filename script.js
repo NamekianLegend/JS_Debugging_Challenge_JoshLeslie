@@ -31,3 +31,5 @@ let num = 0;
 while (num < 10) {
     num = Number(prompt("Enter a number greater than 10"));
 }
+document.write("You entered: " + num + "<br>");
+document.write("Thank youfor breaking the loop! You saved humannity!" + "<br>");
