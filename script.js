@@ -29,5 +29,5 @@ for (let i = 1; i < 10; i++) {
 
 let num = 0;
 while (num < 10) {
-    num = prompt("Enter a number greater than 10")
+    num = Number(prompt("Enter a number greater than 10"));
 }
