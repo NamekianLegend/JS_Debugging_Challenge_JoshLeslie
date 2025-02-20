@@ -1,32 +1,32 @@
 let studentName = "Nadia";
-let studentAge = "20";
+let studentAge = 20;
 let isEnrolled = true; 
 
 document.write("<h2>Student Info</h2>")
 document.write("Name: " + studentName + "<br>"); 
-document.write("Age: " + studentAge); 
-document.write("Enrolled: " + isEnrolled) 
+document.write("Age: " + studentAge + "<br>"); 
+document.write("Enrolled: " + isEnrolled + "<br>"); 
 
 let ageString = String(studentAge)
-document.write("Age Type: " + typeof ageString); 
+document.write("Age Type: " + typeof ageString + "<br>"); 
 
 let num1 = prompt("Enter first number");
 let num2 = prompt("Enter second number");
 let total = Number(num1) + Number(num2); 
 
-document.write("Sum: " + total)
+document.write("Sum: " + total + "<br>");
 
 let userAge = prompt("Enter your age");
 if (userAge == 18) { 
-    document.write("You can vote!"); 
+    document.write("You can vote!" + "<br>"); 
 } else if (userAge < 18) { 
-    document.write("Sorry, you can't vote."); 
+    document.write("Sorry, you can't vote." + "<br>"); 
 } else {
-    document.write("Invalid input. Please enter a number.");
+    document.write("Invalid input. Please enter a number." + "<br>");
 }
 
 for (let i = 1; i < 10; i++) {
-    document.write(i)
+    document.write(i + "<br>");
 }
 
 let num = 0;
