@@ -33,3 +33,6 @@ while (num < 10) {
 }
 document.write("You entered: " + num + "<br>");
 document.write("Thank you for breaking the loop! <br> You saved humanity!" + "<br>");
+
+
+//This is a test commit for Jeremy
