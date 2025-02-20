@@ -17,12 +17,10 @@ let total = Number(num1) + Number(num2);
 document.write("Sum: " + total + "<br>");
 
 let userAge = prompt("Enter your age");
-if (userAge == 18) { 
+if (userAge >= 18) { 
     document.write("You can vote!" + "<br>"); 
-} else if (userAge < 18) { 
+} else { 
     document.write("Sorry, you can't vote." + "<br>"); 
-} else {
-    document.write("Invalid input. Please enter a number." + "<br>");
 }
 
 for (let i = 1; i < 10; i++) {
