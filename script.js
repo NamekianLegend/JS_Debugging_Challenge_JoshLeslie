@@ -2,7 +2,7 @@ let studentName = "Nadia";
 let studentAge = 20;
 let isEnrolled = true; 
 
-document.write("<h2>Student Info</h2>")
+document.write("<h2>Student Info</h2>");
 document.write("Name: " + studentName + "<br>"); 
 document.write("Age: " + studentAge + "<br>"); 
 document.write("Enrolled: " + isEnrolled + "<br>"); 
