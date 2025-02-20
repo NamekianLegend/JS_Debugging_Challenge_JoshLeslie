@@ -32,4 +32,4 @@ while (num < 10) {
     num = Number(prompt("Enter a number greater than 10"));
 }
 document.write("You entered: " + num + "<br>");
-document.write("Thank you for breaking the loop! You saved humannity!" + "<br>");
+document.write("Thank you for breaking the loop! <br> You saved humanity!" + "<br>");
