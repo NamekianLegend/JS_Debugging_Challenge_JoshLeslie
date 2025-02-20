@@ -8,7 +8,7 @@ document.write("Age: " + studentAge + "<br>");
 document.write("Enrolled: " + isEnrolled + "<br>"); 
 
 let ageString = String(studentAge)
-document.write("Age Type: " + typeof ageString + "<br>"); 
+document.write("Age Type: " + typeof (ageString) + "<br>"); 
 
 let num1 = prompt("Enter first number");
 let num2 = prompt("Enter second number");
