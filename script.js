@@ -16,7 +16,7 @@ let total = Number(num1) + Number(num2);
 
 document.write("Sum: " + total + "<br>");
 
-let userAge = prompt("Enter your age");
+let userAge = Number(prompt("Enter your age"));
 if (userAge >= 18) { 
     document.write("You can vote!" + "<br>"); 
 } else { 
